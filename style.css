@@ -6,7 +6,9 @@ body{
   header{
     width:100%;
     height:50px;
-    position:relative;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.527);
+
   }
   header div{
     float:left;
@@ -56,6 +58,7 @@ body{
     margin-left:230px;
     margin-bottom:120px;
   }
+  
   .half2{
     padding-right:160px;
   }
@@ -105,3 +108,77 @@ body{
   .section2 .img2{
     padding-left: 150px;
   }
+
+  /* section 2 end*/
+
+  /* section 3 start */
+
+  .section3{
+  width: 100%;
+  height: 670px;
+  margin:auto;
+   text-align: center;
+  }
+
+  .firsttext h1{
+    font-size: 40px;
+    line-height: 10px;
+  }
+
+  .firsttext p{
+width: 670px;
+color: rgba(0, 0, 0, 0.603);
+margin: 0 auto;
+  }
+  /* section 2 end*/
+
+
+  /* section 3 end*/
+  .service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+  }
+
+  .ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+    margin:5px 5px;
+    margin-right: 5px;
+  }
+  .ser2{
+    padding-top: 40px;
+  }
+
+  .ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  .service i{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .service h1{
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .service p{
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .ser1 div:hover{
+    background-color: rgba(0, 162, 255, 0.171);
+  }
+  .ser1 div:hover p{
+   color: black;
+  }
+  .ser2 div:hover{
+    background-color: cadetblue;  
+  }
+  .ser2 div:hover p{
+    color: white;  
+  }
+  /* end section 3*/
